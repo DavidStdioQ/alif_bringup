@@ -1,0 +1,9 @@
+out
+tmp
+*.o
+installation_script.sh
+cproject+HP.cbuild.yml
+cproject+HP.cprj
+csolution.cbuild-idx.yml
+License.txt
+*.0
