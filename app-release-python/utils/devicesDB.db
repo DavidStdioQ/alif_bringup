@@ -1,0 +1,79 @@
+{
+  "E7 (AE722F80F55D5AE) - 5.5 MRAM / 13.5 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x580000",
+    "app_size"  : "0x580000",
+    "mram_size" : "5.5", 
+    "sram_size" : "13.5", 
+    "wounding"  : "0x00C0FFFB",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },
+  "E5 (AE512F80F55D5AE) - 5.5 MRAM / 13.5 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x580000",
+    "app_size"  : "0x580000",
+    "mram_size" : "5.5", 
+    "sram_size" : "13.5",
+    "wounding"  : "0x00D07FFB",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },
+  "E3 (AE302F80F55D5AE) - 5.5 MRAM / 13.5 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x580000",
+    "app_size"  : "0x580000",
+    "mram_size" : "5.5", 
+    "sram_size" : "13.5",
+    "wounding"  : "0x00D83FFB",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },
+  "E3 (AE302F80C1557UE) - 1.5 MRAM / 5.75 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x180000",
+    "app_size"  : "0x180000",
+    "mram_size" : "1.5", 
+    "sram_size" : "5.75",
+    "wounding"  : "0x00D83FEB",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },
+  "E3 (AE302F40C1537UE) - 1.5 MRAM / 3.75 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x180000",
+    "app_size"  : "0x180000",
+    "mram_size" : "1.5", 
+    "sram_size" : "3.75",
+    "wounding"  : "0x00D83FEA",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },
+  "E1 (AE101F4071542UE) - 1.5 MRAM / 4.25 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x180000",
+    "app_size"  : "0x180000",
+    "mram_size" : "1.5", 
+    "sram_size" : "4.25",
+    "wounding"  : "0x00F82862",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  },  
+  "E1 (AE101F1061517UE) - 1.5 MRAM / 1.75 SRAM":{
+    "featureSet" : "Fusion",
+    "family" : "Ensemble",
+    "alif_offset" : "0x180000",
+    "app_size"  : "0x180000",
+    "mram_size" : "1.5", 
+    "sram_size" : "1.75",
+    "wounding"  : "0x00F82860",
+    "package"   : "SystemPackage",
+    "offset"    : "offset"
+  }
+}

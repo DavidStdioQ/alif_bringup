@@ -1,0 +1,9 @@
+{
+  "Fusion":{
+    "mram_total" : "0x600000",
+    "revisions": ["A1","B0"],
+    "rev_package_ext": {"A1":"rev-a1","B0":"rev-b0"},
+    "rev_baud_rate": {"A1":100000,"B0":55000},
+    "seram_banks" : 2
+  }
+}

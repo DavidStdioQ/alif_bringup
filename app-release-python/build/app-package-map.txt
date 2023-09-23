@@ -1,0 +1,23 @@
+* * * User managed MRAM locations* * * 
+0x80000000	0x2960	10592	unsigned	alif-img.bin
+
+* * * APP Package Start Address* * * 
+
+  - Certificates for User managed images
+0x8057fc50	0x370	880	SBalif-img.bin.crt
+
+  - Certificates & images for Tool managed images
+
+  - APP TOC (Table of Content)
+0x8057ffc0	0x10	16	APP TOC Header
+0x8057ffd0	0x20	32	APP TOC entry for USER_APP obj_address 0x8057fc50
+0x8057fff0	0x10	16	APP TOC Tail
+
+APP Package Summary:
+ - APP Package total size: 944 bytes
+ - APP Package Start Address: 0x8057fc50
+ - APP TOC size: 64 bytes
+ - APP TOC Start Address: 0x8057ffc0
+ - APP CRC32: 0xdd78af08
+
+* * * END of APP Package * * * 

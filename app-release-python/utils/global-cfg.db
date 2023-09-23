@@ -1,0 +1,10 @@
+{
+    "DEVICE": {
+        "Revision": "B0",
+        "Part#": "E7 (AE722F80F55D5AE) - 5.5 MRAM / 13.5 SRAM"
+    },
+    "MRAM-BURNER": {
+        "Interface": "isp",
+        "Jtag-adapter": "J-Link"
+    }
+}

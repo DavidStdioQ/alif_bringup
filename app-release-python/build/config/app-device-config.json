@@ -1,0 +1,35 @@
+{
+    "metadata": {
+        "device": "AE722F80F55D5AE",
+        "project": "",
+        "tool_version": "0.7.12_alpha"
+    },
+    "processors": [
+        {
+            "proc_id": "A32",
+            "master_id": 1,
+            "desc": "Application Processor"
+        },
+        {
+            "proc_id": "M55-HP",
+            "master_id": 16,
+            "desc": "High Performance Processor"
+        },
+        {
+            "proc_id": "M55-HE",
+            "master_id": 17,
+            "desc": "High Efficiency Processor"
+        }
+    ],
+    "firewall": {
+       "firewall_components": [
+       ]
+    },
+    "interrupts": [],
+    "dmas": [],
+    "pinmux": [],
+    "clocks": {
+    "change_sets": [
+       ]
+    }
+}
