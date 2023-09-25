@@ -33,6 +33,7 @@ void OnProjectLoad (void) {
   //
   // User settings
   //
+  Edit.Preference (PREF_TIMESTAMP_FORMAT, TIMESTAMP_FORMAT_INST_CNT);
   File.Open ("$(ProjectDir)/out/cproject/HP/cproject.elf");
 }
 
@@ -329,8 +330,7 @@ void _SetupTarget(void) {
   unsigned int PC;
   unsigned int VectorTableAddr;
 
-  //VectorTableAddr = Elf.GetBaseAddr();
-  VectorTableAddr = 0x80000000;
+  VectorTableAddr = Elf.GetBaseAddr();
   //
   // Set up initial stack pointer
   //
@@ -347,4 +347,9 @@ void _SetupTarget(void) {
   } else {
     Util.Error("Project script error: failed to set up entry point PC", 1);
   }
+
+  //Copy-pasted from .alif/m55-hp_setup.jlinkscript
+  //Disable WARM_RST handshakes in the PPU to fix resets through AIRCR
+	Target.WriteU32(0x1A600024, 0);
+
 }
